@@ -1,3 +1,6 @@
-FROM lscr.io/linuxserver/chromium:latest
+FROM dorowu/ubuntu-desktop-lxde-vnc
 
-EXPOSE 3000
+ENV USER=root
+ENV PASSWORD=admin123
+
+EXPOSE 6080
